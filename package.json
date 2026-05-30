@@ -1,0 +1,33 @@
+{
+  "name": "pi-lm-studio-provider",
+  "version": "0.1.0",
+  "description": "Register local LM Studio models as a Pi provider after discovering LM Studio's local API.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patlux/pi-lm-studio-provider.git"
+  },
+  "homepage": "https://github.com/patlux/pi-lm-studio-provider#readme",
+  "bugs": {
+    "url": "https://github.com/patlux/pi-lm-studio-provider/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.js"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-tui": "*"
+  }
+}
