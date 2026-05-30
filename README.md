@@ -104,7 +104,7 @@ It uses the first endpoint that returns at least one chat model.
 
 ```sh
 npm ci
-npm run ci
+npm run check
 ```
 
 The package uses TypeScript source directly. Pi loads `.ts` extensions without a build step.

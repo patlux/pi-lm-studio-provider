@@ -1,6 +1,6 @@
 {
   "name": "pi-lm-studio-provider",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Register local LM Studio models as a Pi provider after discovering LM Studio's local API.",
   "type": "module",
   "exports": {
@@ -29,7 +29,7 @@
   "scripts": {
     "test": "node --experimental-strip-types --test \"test/**/*.test.ts\"",
     "typecheck": "tsc --noEmit",
-    "ci": "npm run typecheck && npm test && npm pack --dry-run"
+    "check": "npm run typecheck && npm test && npm pack --dry-run"
   },
   "pi": {
     "extensions": [
